@@ -1,67 +1,95 @@
-# Adaptive Secure Vault
+Adaptive Secure Vault 🔐
 
-## Overview
-Adaptive Secure Vault is a cybersecurity-focused secure data sharing system developed using Python, cryptographic algorithms, and adaptive behavioral analysis techniques.
+Adaptive Secure Vault is a secure data sharing and controlled access system developed using Python.
+The project combines encryption, intelligent access monitoring, and adaptive security mechanisms to protect confidential information from unauthorized access.
 
-## Features
-- AES-GCM encryption
-- RSA-based secure key exchange
-- Password-based authentication
-- Behavioral risk analysis
-- Anomaly detection
-- Adaptive security responses
-- Access logging
-- Fake data mode
-- Self-destruction functionality
-- Rapid retry detection
+🚀 Features
+AES-256-GCM based secure data encryption
+Password-based authentication
+PBKDF2 key derivation
+SHA-256 password hashing
+Configurable access attempt limits
+Date-based access restriction
+Agentic AI-inspired risk evaluation system
+Rapid retry detection
+Fake data mode for unauthorized users
+Self-destruct mechanism for high-risk situations
+Access logging and monitoring
+Persistent risk tracking
+Peer-to-peer secure file transfer support
 
-## Technologies Used
-- Python
-- AES-GCM
-- RSA
-- SHA-256
-- Socket Programming
-- Agentic AI Concepts
+🧠 Agentic AI Security Features
+The project includes a rule-based adaptive security agent that:
+Monitors suspicious user behavior
+Calculates cumulative risk score
+Detects rapid retry attempts
+Uses persistent risk memory
+Dynamically evaluates system risk
+Takes autonomous defensive actions
+Possible actions include:
+Allow access
+Show fake data
+Restrict access
+Trigger self-destruct
 
-## Security Mechanisms
-The system implements:
-- Secure encryption and decryption
-- Integrity verification
-- Behavioral anomaly monitoring
-- Adaptive threat response handling
-- Persistent risk tracking
+🛠️ Technologies Used
+Python
+AES-GCM Encryption
+PBKDF2
+SHA-256
+Socket Programming
+File Handling
+Agentic AI Concepts
 
-## Project Structure
-
-```bash
-adaptive-secure-vault/
+📂 Project Structure
+Plain text
+Adaptive-Secure-Vault/
 │
 ├── main.py
-├── requirements.txt
+├── decrypt_tool.py
 ├── README.md
-│
-├── logs/
-├── encrypted_data/
-└── screenshots/
-```
+├── requirements.txt
+└── .gitignore
 
-## Run Project
-
+⚙️ Installation
+Clone the repository:
+Bash
+git clone https://github.com/your-username/Adaptive-Secure-Vault.git
+cd Adaptive-Secure-Vault
 Install dependencies:
-
-```bash
+Bash
 pip install -r requirements.txt
-```
 
-Run application:
-
-```bash
+▶️ How to Run
+Run the main application:
+Bash
 python main.py
-```
+Run the decrypt tool:
+Bash
+python decrypt_tool.py
 
-## Future Improvements
-- Multi-user authentication
-- Cloud storage integration
-- AI-enhanced anomaly prediction
-- Real-time monitoring dashboard
-- Blockchain-based audit logging
+🔐 Security Mechanisms
+The system uses multiple layers of protection:
+Encryption-based confidentiality
+Password hashing
+File integrity verification
+Behavioral risk analysis
+Adaptive response system
+Tampering detection
+
+📌 Future Improvements
+GUI-based desktop application
+Hybrid encryption (AES + RSA)
+Machine learning based anomaly detection
+Cloud-based risk synchronization
+Advanced dashboard and monitoring
+
+🎯 Project Objective
+The goal of this project is to move beyond traditional encryption systems by introducing adaptive and behavior-aware security mechanisms for secure data sharing.
+
+👨‍💻 Developed By
+Harshita Singhal
+Hemal Chouhan
+
+📜 License
+This project is developed for educational and academic purposes.
