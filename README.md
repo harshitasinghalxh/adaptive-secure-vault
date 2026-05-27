@@ -54,7 +54,7 @@ Adaptive-Secure-Vault/
 ⚙️ Installation
 Clone the repository:
 Bash
-git clone https://github.com/your-username/Adaptive-Secure-Vault.git
+git clone https://github.com/harshitasinghalxh/Adaptive-Secure-Vault.git
 cd Adaptive-Secure-Vault
 Install dependencies:
 Bash
